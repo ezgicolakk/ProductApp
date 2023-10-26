@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProductApp.Domain.Common
+namespace ProductApp.Application.Dto
 {
-    public class BaseEntity
+    public class ProductViewDto
     {
         public Guid Id { get; set; }
-        public DateTime CreateDate { get; set; }
+        public string Name { get; set; }
+
     }
 }
-
